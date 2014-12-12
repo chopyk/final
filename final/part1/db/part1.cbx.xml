@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="part1">
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_o441.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_o441.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_r0p.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|audio_codec:codec|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_o441.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|audio_codec:codec|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_o441.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|part1|fifo_with_division:left_buffer|altshift_taps:buffer_s_rtl_0" CBX_FILE_NAME="shift_taps_g7n.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
